@@ -1,0 +1,118 @@
+body{
+    font-family: 'Inter', sans-serif;
+    max-width:  1400px;
+    margin: 0 auto;
+}
+.barra{
+    background-color: rgb(244, 143, 253) !important;
+}
+
+.letra >li >a{
+    color: white;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    /* height: 560px; */
+    background-color: rgb(244, 143, 253)
+}
+
+nav ul li {
+    list-style-type: nome;
+    display: inline;
+    transition: 0,8s all;
+    padding: 16px 18px;
+}
+
+nav ul li:hover{
+    background-color: rgb(172, 0, 172);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+h1, figure, ul {
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(27, 127, 194);
+}
+
+img{
+    max-width: 100%;
+}
+
+/* EST
+ILOS DE LA SECCIÓN 1 */
+
+.video{
+    width: 85%;
+    padding: 80px;
+}
+
+article h1{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.boton{
+    text-align: center;
+    background-color: rgb(244, 143, 253);
+    padding: 10px;
+}
+
+.boton a{ 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.boton:hover{ 
+    background-color: rgb(172, 0, 172);
+}
+/* ARTICLES */
+
+.section{
+    background-color: rgb(244, 143, 253);
+    padding: 15px;
+}
+    
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    text-align: justify;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.contenedor1{
+    vertical-align: center;
+    text-align: justify;
+    justify-content: center;
+    line-height: 30px;
+}
+
+
+footer{
+    background-color: rgb(244, 143, 253);
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}
